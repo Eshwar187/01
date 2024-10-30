@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive_Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('about')">About</a>
+        <a href="#" onclick="showSection('service')">Service</a>
+        <a href="#" onclick="showSection('contact')">Contact Us</a>
+    </div>
+
+    <!-- Content Sections -->
+    <div id="home" class="section active">
+        <h2>Welcome to Our IT Company</h2>
+        <p>We provide innovative solutions to solve business problems through technology.</p>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a leading IT company with expertise in software development, cloud solutions, and cybersecurity.</p>
+    </div>
+
+    <div id="service" class="section">
+        <h2>Our Services</h2>
+        <p>Our services include web and mobile app development, IT consulting, and managed services for businesses.</p>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any inquiries or project discussions. We'd love to help you with your IT needs.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

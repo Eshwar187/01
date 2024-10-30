@@ -1,0 +1,43 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #575757;
+    color: #f4f4f9;
+}
+
+/* Section Styling */
+.section {
+    display: none;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.section.active {
+    display: block;
+}
